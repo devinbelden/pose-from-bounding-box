@@ -6,17 +6,17 @@
 ## Methods
 
 The bounding boxes (and the positional/dimensional data therein) were created using YOLO, by another user on Kaggle. The bounding box data is located [here](https://www.kaggle.com/alvaroibrain/carworldpositions). Due to the format of this dataset, no image processing is required. Instead, we take a singular Pandas dataframe, scale the data, and run it through an array of models, including:
-*K-Nearest Neighbors
-*Random Forest (with Gradient Boosting, AdaBoost, and XGBoost)
-*Support Vector Machines
-*Neural Networks
+- K-Nearest Neighbors
+- Random Forest (with Gradient Boosting, AdaBoost, and XGBoost)
+- Support Vector Machines
+- Neural Networks
 
 ## Accuracy
 
 A relatively high degree of accuracy was obtained from the XGBoost methodology. The R-squared value was 0.881, and the R-squared breakdown by dimension was as follows:
-*X: 0.977
-*Y: 0.822
-*Z: 0.861
+- X: 0.977
+- Y: 0.822
+- Z: 0.861
 
 ## Conclusions
 
